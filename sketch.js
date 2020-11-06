@@ -4,8 +4,8 @@ var database
 var foodS, foodStock;
 function preload() {
   //load images here
-  dogIMG = loadImage("images/dog.png")
-  happyDogIMG = loadImage("images/happydog.png")
+  dogIMG = loadImage("dog.png")
+  happyDogIMG = loadImage("happydog.png")
 }
 function setup() {
   createCanvas(500, 500);
