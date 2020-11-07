@@ -9,7 +9,7 @@ function preload() {
 }
 function setup() {
   createCanvas(500, 500);
-  console.log("firebase = " + firebase)
+  //console.log("firebase = " + firebase)
   database = firebase.database();
   dog = createSprite(250, 250, 1, 1);
   dog.scale = 0.5; dog.addImage(dogIMG)
